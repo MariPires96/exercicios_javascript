@@ -7,9 +7,9 @@ let valor_b;
 let valor_c;
 let soma = 0;
 
-valor_a = readline.questionFloat("Digite o valor de A: ");
-valor_b = readline.questionFloat("Digite o valor de B: ");
-valor_c = readline.questionFloat("Digite o valor de C: ");
+valor_a = readline.questionInt("Digite o valor de A: ");
+valor_b = readline.questionInt("Digite o valor de B: ");
+valor_c = readline.questionInt("Digite o valor de C: ");
 
 soma = valor_a + valor_b;
 
