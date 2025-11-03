@@ -4,7 +4,7 @@ import readline from 'readline-sync'
 
 let contadorMenor21 = 0;
 let contadorMaior50= 0;
-let idadesDigitadas = [];
+const idadesDigitadas = [];
 let idade;
 
 idade = readline.questionInt("Digite a idade (ou um numero negativo para sair): ");

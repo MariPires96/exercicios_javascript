@@ -5,10 +5,10 @@ import readline from 'readline-sync'
 let numero;
 let contadorPositivo = 0;
 let somaPositivos = 0;
-let numerosDigitados = [];
+const numerosDigitados = [];
 
 do {
-    
+
     numero = readline.questionInt("Digite um número (ou digite 0 para sair): ");
 
     if (numero !== 0){
