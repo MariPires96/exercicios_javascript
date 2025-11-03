@@ -23,8 +23,8 @@ while(idade >= 0){
 }
 
 console.log("\n ---------- RESULTADO ---------- \n");
-console.log(`Total de pessoas com menos de 21 anos ${contadorMenor21}`);
-console.log(`Total de pessoas com mais de 50 anos ${contadorMaior50}`);
+console.log(`Total de pessoas com menos de 21 anos: ${contadorMenor21}`);
+console.log(`Total de pessoas com mais de 50 anos: ${contadorMaior50}`);
 
 if (idadesDigitadas.length > 0) {
     console.log(`Idades lidas: ${idadesDigitadas}`);
